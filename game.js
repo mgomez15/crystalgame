@@ -43,8 +43,10 @@ function restartGame() {
     totalScore.text("Total Score: "+ currentScore);
     targetScore.text("Target Score: "+ randomNumber);
 }
+
 restartGame()
 
+//Can't get code to wotk to keep track of score
 if (currentScore === randomNumber) {
     wins++;
 }
